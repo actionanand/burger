@@ -3,6 +3,16 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
+### Sources
+
+- [CSS Scoping in React - Everything You Need to Know](https://www.upbeatcode.com/react/css-scoping-in-react-everything-you-need-to-know/)
+- [How to deploy a React, Angular and Vue project to Github pages](https://deepinder.me/how-to-deploy-a-react-angular-vue-project-to-github-pages)
+- [html color names](https://www.htmlcsscolor.com/)
+
+### Packages
+
+1. [prop-types npm](https://www.npmjs.com/package/prop-types)
+
 ## Table of Contents
 
 - [Updating to New Releases](#updating-to-new-releases)
@@ -2484,13 +2494,3 @@ In the future, we might start automatically compiling incompatible third-party m
 ## Something Missing?
 
 If you have ideas for more “How To” recipes that should be on this page, [let us know](https://github.com/facebookincubator/create-react-app/issues) or [contribute some!](https://github.com/facebookincubator/create-react-app/edit/master/packages/react-scripts/template/README.md)
-
-### Sources
-
-- [CSS Scoping in React - Everything You Need to Know](https://www.upbeatcode.com/react/css-scoping-in-react-everything-you-need-to-know/)
-- [How to deploy a React, Angular and Vue project to Github pages](https://deepinder.me/how-to-deploy-a-react-angular-vue-project-to-github-pages)
-- [html color names](https://www.htmlcsscolor.com/)
-
-### Packages
-
-1. [prop-types npm](https://www.npmjs.com/package/prop-types)
