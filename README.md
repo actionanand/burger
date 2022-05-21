@@ -58,6 +58,18 @@ todayStime = 'And local time is ' + new Date().toLocaleString('en-US', { hour: '
 * [JONAS' RESOURCES FOR HAND-CRAFTING BEAUTIFUL AND PERFORMANT WEBSITES](https://codingheroes.io/resources/)
 
 
+## Terminal and Commands 
+
+* [Linux - I am Love with Terminal](https://dev.to/imabtiwari/linux-i-am-love-with-terminal-2n7p)
+* [The linux commands that help me work](https://dev.to/skorotkiewicz/the-linux-commands-that-help-me-work-2o99)
+* [Top 15 Linux Networking tools that you should know!](https://devdojo.com/serverenthusiast/top-15-linux-networking-tools-that-you-should-know)
+* [101 Bash Commands and Tips for Beginners to Experts](https://dev.to/awwsmm/101-bash-commands-and-tips-for-beginners-to-experts-30je)
+* [16 Must-Know Bash Commands for Data Scientists](https://towardsdatascience.com/16-must-know-bash-commands-for-data-scientists-d8263e990e0e)
+* [Bash cheat sheet: Top 25 commands and creating custom commands](https://www.educative.io/blog/bash-shell-command-cheat-sheet)
+* [Getting Started with Vim Editor in Linux](https://www.geeksforgeeks.org/getting-started-with-vim-editor-in-linux/)
+* [Linux vim command](https://www.computerhope.com/unix/vim.htm)
+
+
 ## Table of Contents
 
 - [Updating to New Releases](#updating-to-new-releases)
