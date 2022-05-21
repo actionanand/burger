@@ -14,6 +14,50 @@ You can find the most recent version of this guide [here](https://github.com/fac
 
 1. [prop-types npm](https://www.npmjs.com/package/prop-types)
 
+### Helps Sources
+
+* [Undoing all uncommitted changes](https://stackoverflow.com/questions/14075581/git-undo-all-uncommitted-or-unsaved-changes)
+
+```bash
+git stash -u && git stash drop
+```
+
+* [Git unable to fast forward](https://stackoverflow.com/questions/20467179/git-push-rejected-non-fast-forward)
+* [Not possible to fast-forward even with no changes](https://stackoverflow.com/questions/28973554/not-possible-to-fast-forward-even-with-no-changes)
+
+```bash
+git pull origin <branch-name> --rebase
+```
+
+* [Git commands cheatsheet](https://github.com/StarTrooper08/Git_it_Right)
+* [Usefull Git commands](https://sonalirajput.hashnode.dev/usefull-git-commands)
+* [How to Add Commit Hooks to Git with Husky to Automate Code Tasks](https://www.freecodecamp.org/news/how-to-add-commit-hooks-to-git-with-husky-to-automate-code-tasks/)
+* [The Complete Guide to Regular Expressions](https://dev.to/coderpad/the-complete-guide-to-regular-expressions-regex-1m6)
+* [Emmet Cheat Sheet](https://docs.emmet.io/cheat-sheet/)
+* [Lorem api](https://lorem.space/api)
+* [20 VS Code Shortcuts For Pro Developers](https://cult.honeypot.io/reads/20-vs-code-shortcuts-developers/)
+* [14 VS Code Shortcuts to Supercharge Your Productivity](https://dev.to/domagojvidovic/14-vs-code-shortcuts-to-supercharge-your-productivity-4khn)
+* [Introducing Angular DevTools](https://blog.angular.io/introducing-angular-devtools-2d59ff4cf62f)
+* [Learn CSS Units – Em, Rem, VH, and VW with Code Examples ✨✨](https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/)
+
+### Pro Guides
+
+* [How to Hack the Hidden Google Chrome Dinosaur Game](https://www.howtogeek.com/684561/how-to-hack-the-hidden-google-chrome-dinosaur-game/)
+* [JavaScript Currying: A Comprehensive Guide](https://javascript.plainenglish.io/javascript-currying-comprehensive-guide-e69c47497309)
+* [5 GitHub Repositories for learning developers](https://dev.to/crater90/5-github-repositories-for-learning-developers-4kn6)
+* [How to Use the .github Repository](https://www.freecodecamp.org/news/how-to-use-the-dot-github-repository/)
+* [How to Format Dates in JavaScript with One Line of Code](https://www.freecodecamp.org/news/how-to-format-dates-in-javascript/)
+
+```js
+todaySdate = "Today's date is " + new Date().toUTCString().slice(5, 16) + '.';
+todayStime = 'And local time is ' + new Date().toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true }) + '.';
+```
+
+* [Javascript Hacks](https://medium.com/geekculture/javascript-hacks-cf8f0fecbc60)
+* [avaScript Async/Await Tutorial – Learn Callbacks, Promises, and Async/Await in JS by Making Ice Cream 🍧🍨🍦](https://www.freecodecamp.org/news/javascript-async-await-tutorial-learn-callbacks-promises-async-await-by-making-icecream/)
+* [JONAS' RESOURCES FOR HAND-CRAFTING BEAUTIFUL AND PERFORMANT WEBSITES](https://codingheroes.io/resources/)
+
+
 ## Table of Contents
 
 - [Updating to New Releases](#updating-to-new-releases)
