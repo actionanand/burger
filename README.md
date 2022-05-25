@@ -8,6 +8,8 @@ You can find the most recent version of this guide [here](https://github.com/fac
 - [Same Burger app with latest react version - css module scoped react app](https://github.com/actionanand/burger-bogo/tree/2-basic-burger)
 - [CSS Scoping in React - Everything You Need to Know](https://www.upbeatcode.com/react/css-scoping-in-react-everything-you-need-to-know/)
 - [How to deploy a React, Angular and Vue project to Github pages](https://deepinder.me/how-to-deploy-a-react-angular-vue-project-to-github-pages)
+- [How to Deploy a Routed React App to GitHub Pages](https://www.freecodecamp.org/news/deploy-a-react-app-to-github-pages/)
+- [Deployment - React official](https://create-react-app.dev/docs/deployment/#github-pages-https-pagesgithubcom)
 - [html color names](https://www.htmlcsscolor.com/)
 
 ### Packages
