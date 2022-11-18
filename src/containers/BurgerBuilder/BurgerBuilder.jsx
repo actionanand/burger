@@ -8,6 +8,7 @@ import Modal from '../../components/UI/Modal/Modal';
 import OrderSummary from '../../components/Burger/OrderSummary/OrderSummary';
 
 const basePrice = 80;
+const maxAllowedIng = 3;
 
 const INGREDIENT_PRICES = {
   salad: 15.25,
@@ -34,6 +35,7 @@ class BurgerBuilder extends Component {
     purchasable: false,
     purchasing: false,
     basePrice,
+    maxAllowedIng,
     purchased: false
   }
 
@@ -101,10 +103,19 @@ class BurgerBuilder extends Component {
     const disabledInfo = {
       ...this.state.ingredients
     };
+
     for ( let key in disabledInfo ) {
       disabledInfo[key] = disabledInfo[key] <= 0
     }
+
     // {salad: true, meat: false, ...}
+
+    const maxAllowedIngsInfo = {...this.state.ingredients};
+
+    for(let key in maxAllowedIngsInfo) {
+      maxAllowedIngsInfo[key] = maxAllowedIngsInfo[key] >= this.state.maxAllowedIng;
+    }
+
     return (
       <Aux>
         <Modal show={this.state.purchasing} modalClosed={this.purchaseCancelHandler}>
@@ -121,6 +132,7 @@ class BurgerBuilder extends Component {
           ingredientAdded={this.addIngredientHandler}
           ingredientRemoved={this.removeIngredientHandler}
           disabled={disabledInfo}
+          maxAllowedIng={maxAllowedIngsInfo}
           purchasable={this.state.purchasable}
           ordered={this.purchaseHandler}
           price={this.state.totalPrice} 
