@@ -3,7 +3,12 @@ import { Route, Switch } from 'react-router-dom';
 
 import Layout from './hoc/Layout/Layout';
 import BurgerBuilder from './containers/BurgerBuilder/BurgerBuilder';
-import Checkout from './containers/Checkout/Checkout';
+import asyncComponent from './hoc/asyncComponent/asyncComponent';
+
+// lazy loading orders' page (i.e checkout component)
+const asyncOrders = asyncComponent(() => {
+  return import('./containers/Checkout/Checkout');
+});
 
 class App extends Component {
   render () {
@@ -12,7 +17,7 @@ class App extends Component {
         <Layout>
           <Switch>
             <Route path='/' exact component={BurgerBuilder} />
-            <Route path='/orders' component={Checkout} />
+            <Route path='/orders' component={asyncOrders} />
           </Switch>
         </Layout>
       </div>
